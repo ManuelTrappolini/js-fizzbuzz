@@ -5,10 +5,24 @@ Consigli del giorno:
 scriviamo sempre prima dei commenti in italiano per capire cosa vogliamo fare
 proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo "a mano" */
 
+//1 fase di preparazione
+// Assegno a delle variabili a Fizz Buzz e FizzBuzz
 
-
-// comincio con creare un ciclo con for che stampi numeri da 1 a 100
-for (let i = 1; i < 101; i++){
+//2 comincio con creare un ciclo con for che stampi numeri da 1 a 100
+for (let i = 1; i <= 100; i++){
     console.log(i);
-    
+    let Fizz = 'Fizz'
+    //devo capire quali numeri da 1 a 100 sono divisibile per 3 
+    if( i % 3 === 0){
+        console.log(Fizz);
+        
+    }
+
 }
+
+
+
+
+
+ 
+   
