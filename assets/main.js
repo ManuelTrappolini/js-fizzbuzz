@@ -10,17 +10,17 @@ proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro program
 
 //2 comincio con creare un ciclo con for che stampi numeri da 1 a 100
 for (let i = 1; i <= 100; i++){
-    console.log(i);
     let Fizz = 'Fizz'
+    
     //devo capire quali numeri da 1 a 100 sono divisibile per 3 
     if( i % 3 === 0){
 
-    
-    // devo riuscire a sostituire il multiplo di tre con la parola Fizz    
-        console.log(Fizz);
-        
+    // devo riuscire a sostituire il multiplo di tre con la parola Fizz   
+        console.log(Fizz); 
     }
-
+    else{
+        console.log(i);  
+    }
 }
 
 
